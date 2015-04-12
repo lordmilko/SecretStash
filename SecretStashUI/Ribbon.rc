@@ -1,0 +1,182 @@
+// ******************************************************************************
+// * This is an automatically generated file containing the ribbon resource for *
+// * your application.                                                          *
+// ******************************************************************************
+
+#include ".\Ribbon.h"
+
+STRINGTABLE 
+BEGIN
+    cmdButtonNewFile_LabelTitle_RESID L"&New File" /* LabelTitle cmdButtonNewFile_LabelTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    cmdButtonNewFile_LabelDescription_RESID L"New File Description" /* LabelDescription cmdButtonNewFile_LabelDescription_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    cmdButtonNewFile_TooltipTitle_RESID L"New File (Ctrl+N)" /* TooltipTitle cmdButtonNewFile_TooltipTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    cmdButtonNewFile_TooltipDescription_RESID L"Hide a new file" /* TooltipDescription cmdButtonNewFile_TooltipDescription_RESID: (null) */
+END
+
+cmdButtonNewFile_SmallImages_16px    BITMAP    "res\New16.bmp" /* SmallImages cmdButtonNewFile_SmallImages_16px: (null) */
+cmdButtonNewFile_SmallImages_20px    BITMAP    "res\New20.bmp" /* SmallImages cmdButtonNewFile_SmallImages_20px: (null) */
+cmdButtonNewFile_SmallImages_24px    BITMAP    "res\New24.bmp" /* SmallImages cmdButtonNewFile_SmallImages_24px: (null) */
+cmdButtonNewFile_SmallImages_32px    BITMAP    "res\New32.bmp" /* SmallImages cmdButtonNewFile_SmallImages_32px: (null) */
+cmdButtonNewFile_LargeImages_32px    BITMAP    "res\New32.bmp" /* LargeImages cmdButtonNewFile_LargeImages_32px: (null) */
+cmdButtonNewFile_LargeImages_40px    BITMAP    "res\New40.bmp" /* LargeImages cmdButtonNewFile_LargeImages_40px: (null) */
+cmdButtonNewFile_LargeImages_48px    BITMAP    "res\New48.bmp" /* LargeImages cmdButtonNewFile_LargeImages_48px: (null) */
+cmdButtonNewFile_LargeImages_64px    BITMAP    "res\New64.bmp" /* LargeImages cmdButtonNewFile_LargeImages_64px: (null) */
+STRINGTABLE 
+BEGIN
+    cmdButtonNewFolder_LabelTitle_RESID L"New &Folder" /* LabelTitle cmdButtonNewFolder_LabelTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    cmdButtonNewFolder_LabelDescription_RESID L"New Folder Description" /* LabelDescription cmdButtonNewFolder_LabelDescription_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    cmdButtonNewFolder_TooltipTitle_RESID L"New Folder (Ctrl+F)" /* TooltipTitle cmdButtonNewFolder_TooltipTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    cmdButtonNewFolder_TooltipDescription_RESID L"Hide a new image" /* TooltipDescription cmdButtonNewFolder_TooltipDescription_RESID: (null) */
+END
+
+cmdButtonNewFolder_SmallImages_16px    BITMAP    "res\New16.bmp" /* SmallImages cmdButtonNewFolder_SmallImages_16px: (null) */
+cmdButtonNewFolder_SmallImages_20px    BITMAP    "res\New20.bmp" /* SmallImages cmdButtonNewFolder_SmallImages_20px: (null) */
+cmdButtonNewFolder_SmallImages_24px    BITMAP    "res\New24.bmp" /* SmallImages cmdButtonNewFolder_SmallImages_24px: (null) */
+cmdButtonNewFolder_SmallImages_32px    BITMAP    "res\New32.bmp" /* SmallImages cmdButtonNewFolder_SmallImages_32px: (null) */
+cmdButtonNewFolder_LargeImages_32px    BITMAP    "res\New32.bmp" /* LargeImages cmdButtonNewFolder_LargeImages_32px: (null) */
+cmdButtonNewFolder_LargeImages_40px    BITMAP    "res\New40.bmp" /* LargeImages cmdButtonNewFolder_LargeImages_40px: (null) */
+cmdButtonNewFolder_LargeImages_48px    BITMAP    "res\New48.bmp" /* LargeImages cmdButtonNewFolder_LargeImages_48px: (null) */
+cmdButtonNewFolder_LargeImages_64px    BITMAP    "res\New64.bmp" /* LargeImages cmdButtonNewFolder_LargeImages_64px: (null) */
+STRINGTABLE 
+BEGIN
+    cmdButtonEdit_LabelTitle_RESID L"E&dit" /* LabelTitle cmdButtonEdit_LabelTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    cmdButtonEdit_LabelDescription_RESID L"Edit Description" /* LabelDescription cmdButtonEdit_LabelDescription_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    cmdButtonEdit_TooltipTitle_RESID L"Edit" /* TooltipTitle cmdButtonEdit_TooltipTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    cmdButtonEdit_TooltipDescription_RESID L"Edit selected file/folder" /* TooltipDescription cmdButtonEdit_TooltipDescription_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    cmdButtonImport_LabelTitle_RESID L"&Import" /* LabelTitle cmdButtonImport_LabelTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    cmdButtonImport_LabelDescription_RESID L"Import Description" /* LabelDescription cmdButtonImport_LabelDescription_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    cmdButtonImport_TooltipTitle_RESID L"Import (Ctrl+I)" /* TooltipTitle cmdButtonImport_TooltipTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    cmdButtonImport_TooltipDescription_RESID L"Import hidden files/folders list" /* TooltipDescription cmdButtonImport_TooltipDescription_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    cmdButtonExport_LabelTitle_RESID L"&Export" /* LabelTitle cmdButtonExport_LabelTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    cmdButtonExport_LabelDescription_RESID L"Export Description" /* LabelDescription cmdButtonExport_LabelDescription_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    cmdButtonExport_TooltipTitle_RESID L"Export (Ctrl+E)" /* TooltipTitle cmdButtonExport_TooltipTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    cmdButtonExport_TooltipDescription_RESID L"Export hidden files/folders list" /* TooltipDescription cmdButtonExport_TooltipDescription_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    cmdButtonHide_LabelTitle_RESID L"&Hide Stash" /* LabelTitle cmdButtonHide_LabelTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    cmdButtonHide_LabelDescription_RESID L"" /* LabelDescription cmdButtonHide_LabelDescription_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    cmdButtonHide_TooltipTitle_RESID L"" /* TooltipTitle cmdButtonHide_TooltipTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    cmdButtonHide_TooltipDescription_RESID L"" /* TooltipDescription cmdButtonHide_TooltipDescription_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    cmdButtonExit_LabelTitle_RESID L"E&xit" /* LabelTitle cmdButtonExit_LabelTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    cmdButtonExit_LabelDescription_RESID L"Exit Description" /* LabelDescription cmdButtonExit_LabelDescription_RESID: (null) */
+END
+
+cmdButtonExit_SmallImages_16px    BITMAP    "Res\\Exit16.bmp" /* SmallImages cmdButtonExit_SmallImages_16px: (null) */
+cmdButtonExit_SmallImages_20px    BITMAP    "Res\\Exit20.bmp" /* SmallImages cmdButtonExit_SmallImages_20px: (null) */
+cmdButtonExit_SmallImages_24px    BITMAP    "Res\\Exit24.bmp" /* SmallImages cmdButtonExit_SmallImages_24px: (null) */
+cmdButtonExit_SmallImages_32px    BITMAP    "Res\\Exit32.bmp" /* SmallImages cmdButtonExit_SmallImages_32px: (null) */
+cmdButtonExit_LargeImages_32px    BITMAP    "res\Exit32.bmp" /* LargeImages cmdButtonExit_LargeImages_32px: (null) */
+cmdButtonExit_LargeImages_40px    BITMAP    "res\Exit40.bmp" /* LargeImages cmdButtonExit_LargeImages_40px: (null) */
+cmdButtonExit_LargeImages_48px    BITMAP    "res\Exit48.bmp" /* LargeImages cmdButtonExit_LargeImages_48px: (null) */
+cmdButtonExit_LargeImages_64px    BITMAP    "res\Exit64.bmp" /* LargeImages cmdButtonExit_LargeImages_64px: (null) */
+STRINGTABLE 
+BEGIN
+    cmdGroupModifyStash_LabelTitle_RESID L"Modify Stash" /* LabelTitle cmdGroupModifyStash_LabelTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    cmdGroupImportExport_LabelTitle_RESID L"Import/Export" /* LabelTitle cmdGroupImportExport_LabelTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    cmdGroupHide_LabelTitle_RESID L"Visibility" /* LabelTitle cmdGroupHide_LabelTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    cmdTabHome_LabelTitle_RESID L"Home" /* LabelTitle cmdTabHome_LabelTitle_RESID: (null) */
+END
+
+APPLICATION_RIBBON    UIFILE    "Ribbon.bml"

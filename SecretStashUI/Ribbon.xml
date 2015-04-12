@@ -1,0 +1,143 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Application xmlns='http://schemas.microsoft.com/windows/2009/Ribbon'>
+    <Application.Commands>
+        <Command Name="cmdApplicationMenu" />
+
+        <!-- Buttons -->
+
+        <!-- New File Button Definition -->
+
+        <Command Name="cmdButtonNewFile" LabelTitle="&amp;New File" LabelDescription="New File Description" TooltipTitle="New File (Ctrl+N)" TooltipDescription="Hide a new file">
+            <Command.LargeImages>
+                <Image Symbol="cmdButtonNewFile_LargeImages_32px">res\New32.bmp</Image>
+                <Image Symbol="cmdButtonNewFile_LargeImages_40px">res\New40.bmp</Image>
+                <Image Symbol="cmdButtonNewFile_LargeImages_48px">res\New48.bmp</Image>
+                <Image Symbol="cmdButtonNewFile_LargeImages_64px">res\New64.bmp</Image>
+            </Command.LargeImages>
+            <Command.SmallImages>
+                <Image Symbol="cmdButtonNewFile_SmallImages_16px">res\New16.bmp</Image>
+                <Image Symbol="cmdButtonNewFile_SmallImages_20px">res\New20.bmp</Image>
+                <Image Symbol="cmdButtonNewFile_SmallImages_24px">res\New24.bmp</Image>
+                <Image Symbol="cmdButtonNewFile_SmallImages_32px">res\New32.bmp</Image>
+            </Command.SmallImages>
+        </Command>
+        
+        <!-- New Folder Button Definition -->
+
+        <Command Name="cmdButtonNewFolder" LabelTitle="New &amp;Folder" LabelDescription="New Folder Description" TooltipTitle="New Folder (Ctrl+F)" TooltipDescription="Hide a new image">
+            <Command.LargeImages>
+                <Image Symbol="cmdButtonNewFolder_LargeImages_32px">res\New32.bmp</Image>
+                <Image Symbol="cmdButtonNewFolder_LargeImages_40px">res\New40.bmp</Image>
+                <Image Symbol="cmdButtonNewFolder_LargeImages_48px">res\New48.bmp</Image>
+                <Image Symbol="cmdButtonNewFolder_LargeImages_64px">res\New64.bmp</Image>
+            </Command.LargeImages>
+            <Command.SmallImages>
+                <Image Symbol="cmdButtonNewFolder_SmallImages_16px">res\New16.bmp</Image>
+                <Image Symbol="cmdButtonNewFolder_SmallImages_20px">res\New20.bmp</Image>
+                <Image Symbol="cmdButtonNewFolder_SmallImages_24px">res\New24.bmp</Image>
+                <Image Symbol="cmdButtonNewFolder_SmallImages_32px">res\New32.bmp</Image>
+            </Command.SmallImages>
+        </Command>
+
+        <!-- Edit Button Definition -->
+
+        <Command Name="cmdButtonEdit" LabelTitle="E&amp;dit" LabelDescription="Edit Description" TooltipTitle="Edit" TooltipDescription="Edit selected file/folder"></Command>
+
+        <!-- Import Button Definition -->
+
+        <Command Name="cmdButtonImport" LabelTitle="&amp;Import" LabelDescription="Import Description" TooltipTitle="Import (Ctrl+I)" TooltipDescription="Import hidden files/folders list"></Command>
+
+        <!-- Export Button Definition -->
+
+        <Command Name="cmdButtonExport" LabelTitle="&amp;Export" LabelDescription="Export Description" TooltipTitle="Export (Ctrl+E)" TooltipDescription="Export hidden files/folders list"></Command>
+
+        <!-- Hide/Show Button Definition -->
+
+        <Command Name="cmdButtonHide" LabelTitle="&amp;Hide Stash" LabelDescription="" TooltipTitle="" TooltipDescription=""></Command>
+
+        <!-- Exit Button Definition -->
+
+        <Command Name="cmdButtonExit" LabelTitle="E&amp;xit" LabelDescription="Exit Description">
+            <Command.LargeImages>
+                <Image Symbol="cmdButtonExit_LargeImages_32px">res\Exit32.bmp</Image>
+                <Image Symbol="cmdButtonExit_LargeImages_40px">res\Exit40.bmp</Image>
+                <Image Symbol="cmdButtonExit_LargeImages_48px">res\Exit48.bmp</Image>
+                <Image Symbol="cmdButtonExit_LargeImages_64px">res\Exit64.bmp</Image>
+            </Command.LargeImages>
+
+            <Command.SmallImages>
+                <Image Symbol="cmdButtonExit_SmallImages_16px">Res/Exit16.bmp</Image>
+                <Image Symbol="cmdButtonExit_SmallImages_20px">Res/Exit20.bmp</Image>
+                <Image Symbol="cmdButtonExit_SmallImages_24px">Res/Exit24.bmp</Image>
+                <Image Symbol="cmdButtonExit_SmallImages_32px">Res/Exit32.bmp</Image>
+            </Command.SmallImages>
+        </Command>
+
+        <!-- Groups -->
+
+        <Command Name="cmdGroupModifyStash" LabelTitle="Modify Stash"></Command>
+
+        <Command Name="cmdGroupImportExport" LabelTitle="Import/Export"></Command>
+
+        <Command Name="cmdGroupHide" LabelTitle="Visibility"></Command>
+
+        <!-- Tabs -->
+
+        <Command Name="cmdTabHome" LabelTitle="Home"></Command>
+
+
+
+    </Application.Commands>
+
+    <Application.Views>
+        <Ribbon>
+            <Ribbon.ApplicationMenu>
+                <ApplicationMenu CommandName="cmdApplicationMenu">
+                    <MenuGroup>
+                        <Button CommandName="cmdButtonNewFile" />
+                        <Button CommandName="cmdButtonImport" />
+                        <Button CommandName="cmdButtonExport" />
+                    </MenuGroup>
+                    <MenuGroup>
+                        <Button CommandName="cmdButtonExit" />
+                    </MenuGroup>
+                </ApplicationMenu>
+            </Ribbon.ApplicationMenu>
+
+            <Ribbon.Tabs>
+                <Tab CommandName="cmdTabHome">
+
+                    <!-- -->
+
+                    <Tab.ScalingPolicy>
+                        <ScalingPolicy>
+                            <ScalingPolicy.IdealSizes>
+                                <Scale Group="cmdGroupModifyStash" Size="Large" />
+                                <Scale Group="cmdGroupImportExport" Size="Large" />
+                                <Scale Group="cmdGroupHide" Size="Large" />
+                            </ScalingPolicy.IdealSizes>
+                        </ScalingPolicy>
+                    </Tab.ScalingPolicy>
+
+                    <!-- -->
+
+                    <Group CommandName="cmdGroupModifyStash" SizeDefinition="ThreeButtons">
+                        <Button CommandName="cmdButtonNewFile" />
+                        <Button CommandName="cmdButtonNewFolder" />
+                        <Button CommandName="cmdButtonEdit" />
+                    </Group>
+
+                    <Group CommandName="cmdGroupImportExport" SizeDefinition="TwoButtons">
+                        <Button CommandName="cmdButtonImport" />
+                        <Button CommandName="cmdButtonExport" />
+                    </Group>
+
+                    <Group CommandName="cmdGroupHide" SizeDefinition="OneButton">
+                        <Button CommandName="cmdButtonHide" />
+                    </Group>
+                </Tab>
+
+            </Ribbon.Tabs>
+        </Ribbon>
+    </Application.Views>
+</Application>
