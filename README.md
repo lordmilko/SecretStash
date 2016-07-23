@@ -1,2 +1,2 @@
-# SecretStash
+# SecretStash [Incomplete]
 Hide Filesystem Objects From Everyone!
